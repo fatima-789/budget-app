@@ -1,0 +1,15 @@
+<!-- res/drawable/rounded_square.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main rounded rectangle layer -->
+    <item android:top="0dp" android:bottom="6dp"> <!-- Offset the main shape for shadow effect -->
+        <shape android:shape="rectangle">
+            <!-- Apply radius only to the top corners -->
+            <corners
+                android:topLeftRadius="50dp"
+                android:topRightRadius="50dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+            <solid android:color="#FFFFFF" /> <!-- Your main background color -->
+        </shape>
+    </item>
+</layer-list>

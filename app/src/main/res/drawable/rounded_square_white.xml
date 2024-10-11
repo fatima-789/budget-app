@@ -1,0 +1,12 @@
+<!-- res/drawable/rounded_square.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp" /> <!-- Match the corner radius -->
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+</layer-list>
